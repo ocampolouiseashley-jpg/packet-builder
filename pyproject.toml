@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "packet-builder"
+version = "0.1.0"
+description = "Fill a Word template for every row of a CSV and build print-ready PDF packets."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Louise Ashley Ocampo" }]
+dependencies = ["python-docx>=1.1", "pypdf>=4"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "fpdf2>=2.7"]
+
+[project.scripts]
+packet-builder = "packet_builder.cli:main"
+
+[tool.setuptools]
+packages = ["packet_builder"]

@@ -1,0 +1,5 @@
+account_id,customer_name,contact_name,address,balance,due_date
+ACC-1001,Maple Street Bakery LLC,Dana Reyes,"14 Maple Street, Springfield, IL 62701","1,240.00",2026-11-15
+ACC-1002,Riverbend Auto Repair,Sam Okafor,"220 River Road, Riverton, WY 82501","3,875.50",2026-11-15
+ACC-1003,Bright Smile Dental,,"9 Clinic Way, Fairview, TN 37062",640.00,2026-11-15
+ACC-1004,Northside Florist,Priya Nair,"77 Bloom Ave, Northfield, MN 55057",512.25,2026-11-15
